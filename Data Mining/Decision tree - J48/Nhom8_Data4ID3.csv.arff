@@ -1,0 +1,1010 @@
+@relation Nhom8_Data4ID3
+
+@attribute 'Checking status' {<0,0<=X<200,'no checking',>=200}
+@attribute 'Credit amount' numeric
+@attribute 'Savings status' {'no known savings',<100,500<=X<1000,>=1000,100<=X<500}
+@attribute Age numeric
+@attribute 'Own telephone' {yes,none}
+@attribute Class {good,bad}
+
+@data
+<0,1169,'no known savings',67,yes,good
+0<=X<200,5951,<100,22,none,bad
+'no checking',2096,<100,49,none,good
+<0,7882,<100,45,none,good
+<0,4870,<100,53,none,bad
+'no checking',9055,'no known savings',35,yes,good
+'no checking',2835,500<=X<1000,53,none,good
+0<=X<200,6948,<100,35,yes,good
+'no checking',3059,>=1000,61,none,good
+0<=X<200,5234,<100,28,none,bad
+0<=X<200,1295,<100,25,none,bad
+<0,4308,<100,24,none,bad
+0<=X<200,1567,<100,22,yes,good
+<0,1199,<100,60,none,bad
+<0,1403,<100,28,none,good
+<0,1282,100<=X<500,32,none,bad
+'no checking',2424,'no known savings',53,none,good
+<0,8072,'no known savings',25,none,good
+0<=X<200,12579,<100,44,yes,bad
+'no checking',3430,500<=X<1000,31,yes,good
+'no checking',2134,<100,48,yes,good
+<0,2647,500<=X<1000,44,none,good
+<0,2241,<100,48,none,good
+0<=X<200,1804,100<=X<500,44,none,good
+'no checking',2069,'no known savings',26,none,good
+<0,1374,<100,36,yes,good
+'no checking',426,<100,39,none,good
+>=200,409,>=1000,42,none,good
+0<=X<200,2415,<100,34,none,good
+<0,6836,<100,63,yes,bad
+0<=X<200,1913,>=1000,36,yes,good
+<0,4020,<100,27,none,good
+0<=X<200,5866,100<=X<500,30,yes,good
+'no checking',1264,'no known savings',57,none,good
+>=200,1474,<100,33,yes,good
+0<=X<200,4746,<100,25,none,bad
+'no checking',6110,<100,31,yes,good
+>=200,2100,<100,37,none,bad
+>=200,1225,<100,37,yes,good
+0<=X<200,458,<100,24,none,good
+'no checking',2333,500<=X<1000,30,none,good
+0<=X<200,1158,500<=X<1000,26,yes,good
+0<=X<200,6204,<100,44,yes,good
+<0,6187,100<=X<500,24,none,good
+<0,6143,<100,58,none,bad
+'no checking',1393,<100,35,none,good
+'no checking',2299,500<=X<1000,39,none,good
+<0,1352,500<=X<1000,23,yes,good
+'no checking',7228,<100,39,none,good
+'no checking',2073,100<=X<500,28,none,good
+0<=X<200,2333,'no known savings',29,none,good
+0<=X<200,5965,<100,30,yes,good
+'no checking',1262,<100,25,none,good
+'no checking',3378,'no known savings',31,yes,good
+0<=X<200,2225,<100,57,yes,bad
+'no checking',783,'no known savings',26,none,good
+0<=X<200,6468,'no known savings',52,yes,bad
+'no checking',9566,<100,31,none,good
+>=200,1961,<100,23,none,good
+<0,6229,<100,23,yes,bad
+0<=X<200,1391,<100,27,yes,good
+0<=X<200,1537,'no known savings',50,yes,good
+0<=X<200,1953,<100,61,yes,bad
+0<=X<200,14421,<100,25,yes,bad
+'no checking',3181,<100,26,yes,good
+'no checking',5190,'no known savings',48,yes,good
+'no checking',2171,<100,29,none,good
+0<=X<200,1007,>=1000,22,none,good
+'no checking',1819,<100,37,yes,bad
+'no checking',2394,'no known savings',25,none,good
+'no checking',8133,<100,30,none,good
+'no checking',730,'no known savings',46,yes,good
+<0,1164,<100,51,yes,good
+0<=X<200,5954,<100,41,none,good
+<0,1977,'no known savings',40,yes,bad
+<0,1526,<100,66,none,good
+<0,3965,<100,34,none,bad
+0<=X<200,4771,<100,51,none,good
+'no checking',9436,'no known savings',39,none,good
+0<=X<200,3832,<100,22,none,good
+'no checking',5943,'no known savings',44,yes,bad
+'no checking',1213,500<=X<1000,47,yes,good
+'no checking',1568,100<=X<500,24,none,good
+<0,1755,<100,58,yes,good
+<0,2315,<100,52,none,good
+'no checking',1412,<100,29,yes,good
+0<=X<200,1295,<100,27,none,good
+0<=X<200,12612,100<=X<500,47,yes,bad
+<0,2249,100<=X<500,30,yes,good
+<0,1108,<100,28,none,bad
+'no checking',618,<100,56,none,good
+<0,1409,<100,54,none,good
+'no checking',797,'no known savings',33,none,bad
+>=200,3617,'no known savings',20,none,good
+0<=X<200,1318,>=1000,54,yes,good
+0<=X<200,15945,<100,58,yes,bad
+'no checking',2012,'no known savings',61,none,good
+0<=X<200,2622,100<=X<500,34,none,good
+0<=X<200,2337,<100,36,none,good
+0<=X<200,7057,'no known savings',36,yes,good
+'no checking',1469,100<=X<500,41,none,good
+0<=X<200,2323,<100,24,none,good
+'no checking',932,<100,24,none,good
+0<=X<200,1919,<100,35,yes,good
+'no checking',2445,'no known savings',26,yes,good
+0<=X<200,11938,<100,39,yes,bad
+'no checking',6458,<100,39,yes,bad
+0<=X<200,6078,<100,32,none,good
+<0,7721,'no known savings',30,yes,good
+0<=X<200,1410,500<=X<1000,35,yes,good
+0<=X<200,1449,100<=X<500,31,none,good
+>=200,392,<100,23,yes,good
+0<=X<200,6260,<100,28,none,good
+'no checking',7855,<100,25,yes,bad
+<0,1680,500<=X<1000,35,none,good
+'no checking',3578,'no known savings',47,yes,good
+<0,7174,'no known savings',30,yes,bad
+<0,2132,'no known savings',27,none,good
+<0,4281,500<=X<1000,23,none,bad
+0<=X<200,2366,500<=X<1000,36,yes,good
+<0,1835,<100,25,yes,bad
+'no checking',3868,<100,41,yes,good
+'no checking',1768,<100,24,none,good
+>=200,781,<100,63,yes,good
+0<=X<200,1924,'no known savings',27,none,bad
+<0,2121,<100,30,none,good
+<0,701,<100,40,none,good
+0<=X<200,639,<100,30,none,bad
+0<=X<200,1860,<100,34,yes,good
+<0,3499,<100,29,none,bad
+0<=X<200,8487,'no known savings',24,none,good
+<0,6887,<100,29,yes,bad
+'no checking',2708,<100,27,none,good
+'no checking',1984,<100,47,none,good
+'no checking',10144,100<=X<500,21,yes,good
+'no checking',1240,'no known savings',38,yes,good
+'no checking',8613,>=1000,27,none,good
+0<=X<200,766,500<=X<1000,66,none,bad
+0<=X<200,2728,'no known savings',35,yes,good
+>=200,1881,<100,44,yes,good
+>=200,709,>=1000,27,none,good
+0<=X<200,4795,<100,30,yes,good
+<0,3416,<100,27,none,good
+<0,2462,<100,22,none,bad
+'no checking',2288,<100,23,yes,good
+0<=X<200,3566,100<=X<500,30,none,good
+<0,860,<100,39,yes,good
+'no checking',682,100<=X<500,51,yes,good
+<0,5371,<100,28,none,good
+'no checking',1582,>=1000,46,none,good
+'no checking',1346,100<=X<500,42,yes,good
+'no checking',1924,<100,38,yes,good
+>=200,5848,<100,24,none,good
+0<=X<200,7758,>=1000,29,none,good
+0<=X<200,6967,100<=X<500,36,yes,good
+<0,1282,<100,20,none,bad
+<0,1288,100<=X<500,48,none,good
+<0,339,<100,45,none,good
+0<=X<200,3512,100<=X<500,38,yes,good
+'no checking',1898,'no known savings',34,none,good
+'no checking',2872,100<=X<500,36,yes,good
+'no checking',1055,<100,30,none,good
+'no checking',1262,500<=X<1000,36,yes,good
+0<=X<200,7308,<100,70,yes,good
+'no checking',909,500<=X<1000,36,none,good
+'no checking',2978,500<=X<1000,32,yes,good
+<0,1131,<100,33,none,bad
+0<=X<200,1577,>=1000,20,none,good
+'no checking',3972,<100,25,yes,good
+0<=X<200,1935,<100,31,yes,bad
+<0,950,<100,33,none,bad
+'no checking',763,<100,26,yes,good
+0<=X<200,2064,<100,34,yes,bad
+0<=X<200,1414,<100,33,none,good
+<0,3414,<100,26,none,bad
+'no checking',7485,'no known savings',53,yes,bad
+<0,2577,<100,42,none,good
+<0,338,500<=X<1000,52,none,good
+'no checking',1963,<100,31,yes,good
+<0,571,<100,65,none,good
+'no checking',9572,<100,28,none,bad
+0<=X<200,4455,<100,30,yes,bad
+<0,1647,'no known savings',40,none,bad
+'no checking',3777,>=1000,50,yes,good
+0<=X<200,884,<100,36,yes,bad
+'no checking',1360,<100,31,none,good
+0<=X<200,5129,<100,74,yes,bad
+0<=X<200,1175,<100,68,yes,good
+<0,674,100<=X<500,20,none,bad
+0<=X<200,3244,<100,33,yes,good
+'no checking',4591,>=1000,54,yes,bad
+0<=X<200,3844,100<=X<500,34,none,bad
+0<=X<200,3915,<100,36,yes,bad
+'no checking',2108,<100,29,none,good
+0<=X<200,3031,100<=X<500,21,none,bad
+0<=X<200,1501,<100,34,yes,bad
+'no checking',1382,<100,28,yes,good
+0<=X<200,951,100<=X<500,27,none,bad
+0<=X<200,2760,'no known savings',36,yes,good
+0<=X<200,4297,<100,40,yes,bad
+'no checking',936,500<=X<1000,52,yes,good
+<0,1168,<100,27,none,good
+'no checking',5117,<100,26,none,good
+<0,902,<100,21,none,bad
+'no checking',1495,<100,38,none,good
+<0,10623,<100,38,yes,good
+'no checking',1935,<100,43,yes,good
+0<=X<200,1424,<100,26,none,good
+<0,6568,<100,21,none,good
+'no checking',1413,>=1000,55,none,good
+'no checking',3074,'no known savings',33,none,good
+'no checking',3835,'no known savings',45,yes,good
+<0,5293,<100,50,yes,bad
+>=200,1908,<100,66,yes,bad
+'no checking',3342,'no known savings',51,yes,good
+0<=X<200,932,'no known savings',39,none,good
+<0,3104,<100,31,yes,good
+>=200,3913,<100,23,yes,good
+<0,3021,<100,24,none,good
+'no checking',1364,<100,64,yes,good
+0<=X<200,625,<100,26,none,good
+<0,1200,'no known savings',23,yes,good
+'no checking',707,<100,30,none,good
+'no checking',2978,'no known savings',32,yes,good
+'no checking',4657,<100,30,yes,good
+'no checking',2613,<100,27,none,good
+0<=X<200,10961,>=1000,27,yes,bad
+<0,7865,<100,53,yes,bad
+'no checking',1478,<100,22,none,bad
+<0,3149,<100,22,none,good
+>=200,4210,<100,26,none,bad
+'no checking',2507,500<=X<1000,51,none,good
+'no checking',2141,100<=X<500,35,none,good
+0<=X<200,866,<100,25,none,good
+'no checking',1544,<100,42,none,good
+<0,1823,<100,30,none,bad
+0<=X<200,14555,'no known savings',23,yes,bad
+0<=X<200,2767,100<=X<500,61,none,bad
+'no checking',1291,<100,35,none,good
+<0,2522,<100,39,none,good
+<0,915,'no known savings',29,none,bad
+'no checking',1595,<100,51,none,good
+<0,4605,<100,24,none,bad
+'no checking',1185,<100,27,none,good
+'no checking',3447,500<=X<1000,35,none,good
+'no checking',1258,<100,25,yes,good
+'no checking',717,<100,52,none,good
+'no checking',1204,100<=X<500,35,none,good
+>=200,1925,<100,26,none,good
+'no checking',433,<100,22,none,bad
+<0,666,>=1000,39,yes,good
+>=200,2251,<100,46,none,good
+0<=X<200,2150,<100,24,none,bad
+'no checking',4151,100<=X<500,35,none,good
+0<=X<200,2030,'no known savings',24,yes,good
+0<=X<200,7418,'no known savings',27,none,good
+'no checking',2684,<100,35,none,good
+<0,2149,<100,29,none,bad
+'no checking',3812,100<=X<500,23,yes,good
+'no checking',1154,100<=X<500,57,none,good
+<0,1657,<100,27,none,good
+<0,1603,<100,55,none,good
+<0,5302,<100,36,yes,good
+'no checking',2748,<100,57,none,good
+'no checking',1231,<100,32,none,good
+0<=X<200,802,<100,37,none,bad
+'no checking',6304,'no known savings',36,none,good
+'no checking',1533,<100,38,yes,good
+<0,8978,<100,45,yes,bad
+'no checking',999,'no known savings',25,none,good
+'no checking',2662,'no known savings',32,none,good
+'no checking',1402,500<=X<1000,37,yes,good
+0<=X<200,12169,'no known savings',36,yes,good
+0<=X<200,3060,<100,28,none,bad
+<0,11998,<100,34,yes,bad
+'no checking',2697,<100,32,none,good
+'no checking',2404,<100,26,none,good
+<0,1262,'no known savings',49,yes,good
+'no checking',4611,<100,32,none,bad
+'no checking',1901,100<=X<500,29,yes,good
+'no checking',3368,>=1000,23,yes,good
+'no checking',1574,<100,50,none,good
+>=200,1445,'no known savings',49,none,good
+'no checking',1520,'no known savings',63,none,good
+0<=X<200,3878,100<=X<500,37,yes,good
+<0,10722,<100,35,yes,good
+<0,4788,<100,26,none,good
+0<=X<200,7582,100<=X<500,31,yes,good
+0<=X<200,1092,<100,49,yes,good
+<0,1024,<100,48,none,bad
+'no checking',1076,<100,26,yes,good
+0<=X<200,9398,<100,28,yes,bad
+<0,6419,<100,44,yes,good
+>=200,4796,<100,56,none,good
+'no checking',7629,'no known savings',46,none,good
+0<=X<200,9960,<100,26,yes,bad
+'no checking',4675,'no known savings',20,none,good
+'no checking',1287,'no known savings',45,none,good
+'no checking',2515,<100,43,yes,good
+0<=X<200,2745,>=1000,32,yes,good
+'no checking',672,<100,54,yes,good
+0<=X<200,3804,<100,42,yes,bad
+>=200,1344,'no known savings',37,none,bad
+<0,1038,<100,49,yes,good
+'no checking',10127,500<=X<1000,44,none,bad
+'no checking',1543,>=1000,33,none,good
+'no checking',4811,'no known savings',24,none,good
+<0,727,100<=X<500,33,yes,bad
+0<=X<200,1237,<100,24,none,bad
+0<=X<200,276,<100,22,none,good
+0<=X<200,5381,'no known savings',40,yes,good
+'no checking',5511,100<=X<500,25,none,good
+>=200,3749,<100,26,none,good
+0<=X<200,685,<100,25,none,bad
+>=200,1494,'no known savings',29,none,good
+<0,2746,<100,31,none,bad
+<0,708,<100,38,none,good
+0<=X<200,4351,'no known savings',48,yes,good
+'no checking',701,<100,32,none,good
+<0,3643,<100,27,none,good
+0<=X<200,4249,<100,28,none,bad
+<0,1938,<100,32,none,bad
+<0,2910,<100,34,yes,good
+<0,2659,>=1000,28,none,good
+'no checking',1028,<100,36,none,good
+<0,3398,<100,39,none,good
+'no checking',5801,'no known savings',49,yes,good
+'no checking',1525,>=1000,34,yes,good
+>=200,4473,<100,31,none,good
+0<=X<200,1068,<100,28,none,good
+<0,6615,<100,75,yes,good
+'no checking',1864,100<=X<500,30,none,bad
+0<=X<200,7408,100<=X<500,24,none,bad
+'no checking',11590,100<=X<500,24,none,bad
+<0,4110,<100,23,none,bad
+<0,3384,<100,44,yes,bad
+0<=X<200,2101,<100,23,none,good
+<0,1275,'no known savings',24,none,bad
+<0,4169,<100,28,none,good
+0<=X<200,1521,<100,31,none,good
+0<=X<200,5743,<100,24,yes,good
+<0,3599,<100,26,none,good
+0<=X<200,3213,500<=X<1000,25,none,good
+0<=X<200,4439,<100,33,yes,good
+>=200,3949,<100,37,none,good
+'no checking',1459,<100,43,none,good
+0<=X<200,882,<100,23,none,good
+0<=X<200,3758,500<=X<1000,23,none,good
+'no checking',1743,100<=X<500,34,none,good
+0<=X<200,1136,>=1000,32,none,bad
+'no checking',1236,<100,23,yes,good
+0<=X<200,959,<100,29,none,bad
+'no checking',3229,'no known savings',38,yes,good
+<0,6199,<100,28,yes,bad
+'no checking',727,500<=X<1000,46,yes,good
+0<=X<200,1246,<100,23,none,bad
+'no checking',2331,'no known savings',49,yes,good
+'no checking',4463,<100,26,yes,bad
+'no checking',776,<100,28,none,good
+<0,2406,<100,23,none,bad
+0<=X<200,1239,'no known savings',61,none,good
+>=200,3399,'no known savings',37,none,good
+>=200,2247,<100,36,yes,good
+'no checking',1766,<100,21,none,good
+<0,2473,<100,25,none,bad
+'no checking',1542,<100,36,yes,good
+'no checking',3850,<100,27,none,good
+<0,3650,<100,22,none,good
+<0,3446,<100,42,none,bad
+0<=X<200,3001,<100,40,none,good
+'no checking',3079,'no known savings',36,none,good
+'no checking',6070,<100,33,yes,good
+'no checking',2146,<100,23,none,good
+'no checking',13756,'no known savings',63,yes,good
+0<=X<200,14782,100<=X<500,60,yes,bad
+<0,7685,<100,37,none,bad
+'no checking',2320,<100,34,none,good
+'no checking',846,'no known savings',36,none,good
+0<=X<200,14318,<100,57,yes,bad
+'no checking',362,100<=X<500,52,none,good
+<0,2212,'no known savings',39,yes,good
+0<=X<200,12976,<100,38,yes,bad
+'no checking',1283,'no known savings',25,none,good
+>=200,1330,<100,26,none,good
+'no checking',4272,100<=X<500,26,none,good
+'no checking',2238,<100,25,none,good
+'no checking',1126,'no known savings',21,yes,good
+0<=X<200,7374,<100,40,yes,good
+0<=X<200,2326,500<=X<1000,27,none,good
+'no checking',1449,<100,27,none,good
+'no checking',1820,<100,30,yes,good
+0<=X<200,983,>=1000,19,none,good
+<0,3249,<100,39,yes,good
+<0,1957,<100,31,none,good
+'no checking',2406,<100,31,none,good
+0<=X<200,11760,100<=X<500,32,yes,good
+<0,2578,<100,55,none,good
+<0,2348,<100,46,yes,good
+0<=X<200,1223,<100,46,none,bad
+'no checking',1516,>=1000,43,none,good
+'no checking',1473,<100,39,yes,good
+0<=X<200,1887,'no known savings',28,none,good
+'no checking',8648,<100,27,yes,bad
+'no checking',802,<100,27,none,good
+0<=X<200,2899,'no known savings',43,none,good
+0<=X<200,2039,<100,22,yes,bad
+'no checking',2197,'no known savings',43,yes,good
+<0,1053,<100,27,none,good
+'no checking',3235,500<=X<1000,26,yes,good
+>=200,939,500<=X<1000,28,yes,bad
+0<=X<200,1967,<100,20,yes,good
+'no checking',7253,<100,35,yes,good
+'no checking',2292,<100,42,yes,bad
+'no checking',1597,500<=X<1000,40,none,good
+<0,1381,'no known savings',35,none,bad
+'no checking',5842,<100,35,yes,good
+<0,2579,<100,33,none,bad
+<0,8471,'no known savings',23,yes,good
+'no checking',2782,500<=X<1000,31,none,good
+0<=X<200,1042,'no known savings',33,none,bad
+'no checking',3186,>=1000,20,none,good
+0<=X<200,2028,'no known savings',30,none,good
+0<=X<200,958,<100,47,none,good
+'no checking',1591,100<=X<500,34,none,good
+0<=X<200,2762,'no known savings',25,yes,bad
+0<=X<200,2779,<100,21,yes,good
+'no checking',2743,<100,29,none,good
+'no checking',1149,>=1000,46,none,good
+'no checking',1313,<100,20,none,good
+<0,1190,<100,55,none,bad
+'no checking',3448,<100,74,none,good
+0<=X<200,11328,<100,29,yes,bad
+<0,1872,<100,36,yes,good
+'no checking',2058,<100,33,yes,good
+<0,2136,<100,25,none,good
+0<=X<200,1484,'no known savings',25,yes,bad
+'no checking',660,500<=X<1000,23,none,good
+'no checking',1287,>=1000,37,yes,good
+<0,3394,<100,65,none,good
+>=200,609,<100,26,none,bad
+'no checking',1884,<100,39,yes,good
+<0,1620,<100,30,none,good
+0<=X<200,2629,<100,29,yes,good
+'no checking',719,<100,41,none,bad
+0<=X<200,5096,<100,30,yes,bad
+'no checking',1244,'no known savings',41,none,good
+<0,1842,<100,34,yes,bad
+0<=X<200,2576,<100,35,none,good
+>=200,1424,'no known savings',55,yes,good
+0<=X<200,1512,>=1000,61,none,bad
+'no checking',11054,'no known savings',30,yes,good
+'no checking',518,<100,29,none,good
+'no checking',2759,<100,34,none,good
+'no checking',2670,<100,35,yes,good
+<0,4817,<100,31,yes,bad
+'no checking',2679,<100,29,yes,good
+<0,3905,<100,36,none,good
+<0,3386,<100,35,yes,bad
+<0,343,<100,27,none,good
+'no checking',4594,<100,32,yes,good
+<0,3620,<100,37,none,good
+<0,1721,<100,36,none,good
+0<=X<200,3017,<100,34,none,good
+0<=X<200,754,'no known savings',38,none,good
+'no checking',1950,<100,34,yes,good
+<0,2924,<100,63,yes,good
+<0,1659,<100,29,yes,bad
+'no checking',7238,'no known savings',32,none,good
+'no checking',2764,<100,26,yes,good
+'no checking',4679,<100,35,yes,good
+0<=X<200,3092,100<=X<500,22,yes,bad
+<0,448,<100,23,none,bad
+<0,654,<100,28,none,bad
+'no checking',1238,'no known savings',36,yes,good
+0<=X<200,1245,<100,33,none,bad
+<0,3114,<100,26,none,bad
+'no checking',2569,500<=X<1000,24,none,good
+>=200,5152,<100,25,none,good
+0<=X<200,1037,100<=X<500,39,none,good
+<0,1478,<100,44,yes,good
+0<=X<200,3573,<100,23,none,good
+0<=X<200,1201,<100,26,none,good
+<0,3622,>=1000,57,yes,good
+'no checking',960,>=1000,30,none,good
+'no checking',1163,500<=X<1000,44,yes,good
+0<=X<200,1209,<100,47,yes,bad
+'no checking',3077,<100,52,yes,good
+'no checking',3757,<100,62,yes,good
+'no checking',1418,100<=X<500,35,none,good
+'no checking',3518,<100,26,none,good
+'no checking',1934,<100,26,none,good
+0<=X<200,8318,<100,42,yes,bad
+'no checking',1237,100<=X<500,27,none,good
+0<=X<200,368,'no known savings',38,none,good
+<0,2122,<100,39,none,good
+<0,2996,'no known savings',20,none,bad
+0<=X<200,9034,100<=X<500,29,yes,bad
+'no checking',1585,<100,40,none,good
+0<=X<200,1301,<100,32,none,good
+>=200,1323,100<=X<500,28,yes,good
+<0,3123,<100,27,none,bad
+<0,5493,<100,42,none,good
+>=200,1126,100<=X<500,49,none,good
+0<=X<200,1216,100<=X<500,38,none,bad
+<0,1207,<100,24,none,bad
+'no checking',1309,'no known savings',27,none,bad
+>=200,2360,500<=X<1000,36,yes,good
+0<=X<200,6850,100<=X<500,34,yes,bad
+'no checking',1413,<100,28,none,good
+'no checking',8588,100<=X<500,45,yes,good
+<0,759,<100,26,none,bad
+'no checking',4686,<100,32,yes,good
+>=200,2687,<100,26,yes,good
+0<=X<200,585,<100,20,none,good
+'no checking',2255,'no known savings',54,none,good
+<0,609,<100,37,none,good
+<0,1361,<100,40,none,good
+'no checking',7127,<100,23,yes,bad
+<0,1203,100<=X<500,43,yes,good
+'no checking',700,'no known savings',36,none,good
+'no checking',5507,<100,44,none,good
+<0,3190,<100,24,none,bad
+<0,7119,<100,53,none,bad
+'no checking',3488,100<=X<500,23,none,good
+0<=X<200,1113,<100,26,none,good
+0<=X<200,7966,<100,30,none,good
+'no checking',1532,100<=X<500,31,none,good
+'no checking',1503,<100,42,none,good
+<0,2302,<100,31,none,bad
+<0,662,<100,41,yes,good
+0<=X<200,2273,<100,32,none,good
+0<=X<200,2631,100<=X<500,28,yes,bad
+'no checking',1503,<100,41,none,good
+'no checking',1311,100<=X<500,26,yes,good
+'no checking',3105,'no known savings',25,none,good
+>=200,2319,<100,33,none,bad
+<0,1374,'no known savings',75,yes,good
+0<=X<200,3612,<100,37,yes,good
+<0,7763,<100,42,none,bad
+>=200,3049,<100,45,none,good
+0<=X<200,1534,<100,23,none,bad
+'no checking',2032,<100,60,yes,good
+<0,6350,'no known savings',31,none,bad
+>=200,2864,<100,34,none,bad
+'no checking',1255,<100,61,none,good
+<0,1333,<100,43,none,bad
+'no checking',2022,<100,37,yes,good
+'no checking',1552,<100,32,none,good
+<0,626,<100,24,none,bad
+'no checking',8858,'no known savings',35,yes,good
+'no checking',996,'no known savings',23,none,good
+'no checking',1750,500<=X<1000,45,none,good
+<0,6999,<100,34,yes,bad
+0<=X<200,1995,100<=X<500,27,none,good
+0<=X<200,1199,<100,67,yes,good
+0<=X<200,1331,<100,22,none,bad
+0<=X<200,2278,100<=X<500,28,none,bad
+'no checking',5003,'no known savings',29,yes,bad
+<0,3552,<100,27,none,bad
+0<=X<200,1928,<100,31,none,bad
+<0,2964,'no known savings',49,yes,good
+<0,1546,<100,24,none,bad
+>=200,683,<100,29,none,good
+0<=X<200,12389,'no known savings',37,yes,bad
+0<=X<200,4712,'no known savings',37,yes,good
+0<=X<200,1553,100<=X<500,23,yes,good
+<0,1372,<100,36,none,bad
+'no checking',2578,>=1000,34,none,good
+0<=X<200,3979,'no known savings',41,yes,good
+<0,6758,<100,31,yes,bad
+<0,3234,<100,23,yes,bad
+'no checking',5954,<100,38,none,good
+'no checking',5433,'no known savings',26,yes,good
+<0,806,<100,22,none,good
+0<=X<200,1082,<100,27,none,good
+'no checking',2788,<100,24,none,good
+0<=X<200,2930,<100,27,none,good
+'no checking',1927,'no known savings',33,yes,good
+0<=X<200,2820,<100,27,none,bad
+'no checking',937,<100,27,none,good
+0<=X<200,1056,<100,30,none,bad
+0<=X<200,3124,<100,49,none,good
+'no checking',1388,<100,26,none,good
+0<=X<200,2384,<100,33,none,bad
+'no checking',2133,'no known savings',52,yes,good
+<0,2039,<100,20,none,bad
+<0,2799,<100,36,none,good
+<0,1289,<100,21,none,good
+<0,1217,<100,47,yes,bad
+<0,2246,<100,60,none,bad
+<0,385,<100,58,yes,good
+0<=X<200,1965,'no known savings',42,yes,good
+'no checking',1572,>=1000,36,none,good
+0<=X<200,2718,<100,20,yes,bad
+<0,1358,'no known savings',40,yes,bad
+0<=X<200,931,100<=X<500,32,none,bad
+<0,1442,<100,23,none,bad
+0<=X<200,4241,<100,36,yes,bad
+'no checking',2775,<100,31,none,bad
+'no checking',3863,<100,32,none,good
+0<=X<200,2329,<100,45,none,good
+0<=X<200,918,<100,30,none,bad
+0<=X<200,1837,<100,34,none,bad
+'no checking',3349,<100,28,yes,bad
+>=200,1275,<100,23,none,good
+<0,2828,500<=X<1000,22,yes,good
+'no checking',4526,<100,74,yes,good
+0<=X<200,2671,100<=X<500,50,none,bad
+'no checking',2051,<100,33,none,good
+'no checking',1300,'no known savings',45,none,good
+<0,741,100<=X<500,22,none,bad
+>=200,1240,100<=X<500,48,none,bad
+<0,3357,>=1000,29,none,good
+<0,3632,<100,22,none,good
+'no checking',1808,<100,22,none,bad
+0<=X<200,12204,'no known savings',48,yes,good
+0<=X<200,9157,'no known savings',27,none,good
+<0,3676,<100,37,none,good
+0<=X<200,3441,100<=X<500,21,none,bad
+'no checking',640,<100,49,none,good
+0<=X<200,3652,<100,27,none,good
+'no checking',1530,<100,32,none,bad
+'no checking',3914,'no known savings',38,none,bad
+<0,1858,<100,22,none,good
+<0,2600,<100,65,none,bad
+'no checking',1979,'no known savings',35,none,good
+>=200,2116,<100,41,yes,good
+0<=X<200,1437,100<=X<500,29,none,bad
+'no checking',4042,500<=X<1000,36,yes,good
+'no checking',3832,'no known savings',64,none,good
+<0,3660,<100,28,none,good
+<0,1553,<100,44,none,bad
+0<=X<200,1444,'no known savings',23,none,good
+'no checking',1980,<100,19,none,bad
+0<=X<200,1355,<100,25,yes,bad
+'no checking',1393,<100,47,yes,good
+'no checking',1376,500<=X<1000,28,none,good
+'no checking',15653,<100,21,yes,good
+'no checking',1493,<100,34,none,good
+<0,4370,<100,26,yes,bad
+<0,750,<100,27,none,bad
+0<=X<200,1308,<100,38,none,good
+'no checking',4623,100<=X<500,40,yes,bad
+'no checking',1851,<100,33,yes,good
+<0,1880,<100,32,yes,good
+'no checking',7980,'no known savings',27,yes,bad
+<0,4583,<100,32,none,good
+'no checking',1386,500<=X<1000,26,none,bad
+>=200,947,<100,38,none,bad
+<0,684,<100,40,none,bad
+<0,7476,<100,50,yes,good
+0<=X<200,1922,<100,37,none,bad
+<0,2303,<100,45,none,bad
+0<=X<200,8086,100<=X<500,42,yes,bad
+'no checking',2346,<100,35,yes,good
+<0,3973,<100,22,none,good
+0<=X<200,888,<100,41,none,bad
+'no checking',10222,'no known savings',37,yes,good
+0<=X<200,4221,<100,28,none,good
+0<=X<200,6361,<100,41,yes,good
+>=200,1297,<100,23,none,good
+<0,900,'no known savings',23,none,bad
+'no checking',2241,<100,50,none,good
+0<=X<200,1050,<100,35,yes,good
+>=200,1047,<100,50,none,good
+'no checking',6314,<100,27,yes,good
+0<=X<200,3496,>=1000,34,yes,good
+'no checking',3609,<100,27,none,good
+<0,4843,<100,43,yes,bad
+>=200,3017,<100,47,none,good
+'no checking',4139,100<=X<500,27,yes,good
+'no checking',5742,100<=X<500,31,yes,good
+'no checking',10366,<100,42,yes,good
+'no checking',2080,500<=X<1000,24,none,good
+'no checking',2580,500<=X<1000,41,none,bad
+'no checking',4530,<100,26,yes,good
+'no checking',5150,<100,33,yes,good
+0<=X<200,5595,100<=X<500,24,none,bad
+<0,2384,<100,64,none,good
+'no checking',1453,<100,26,none,good
+'no checking',1538,<100,56,none,good
+'no checking',2279,'no known savings',37,yes,good
+'no checking',1478,<100,33,none,good
+'no checking',5103,<100,47,yes,good
+0<=X<200,9857,100<=X<500,31,yes,good
+'no checking',6527,'no known savings',34,yes,good
+>=200,1347,'no known savings',27,yes,good
+0<=X<200,2862,100<=X<500,30,none,good
+'no checking',2753,100<=X<500,35,yes,good
+<0,3651,>=1000,31,none,good
+<0,975,<100,25,none,good
+0<=X<200,2631,100<=X<500,25,none,good
+0<=X<200,2896,100<=X<500,29,none,good
+<0,4716,'no known savings',44,none,good
+'no checking',2284,<100,28,yes,good
+'no checking',1236,500<=X<1000,50,none,good
+0<=X<200,1103,<100,29,none,good
+'no checking',926,<100,38,none,good
+'no checking',1800,<100,24,none,good
+>=200,1905,<100,40,yes,good
+'no checking',1123,500<=X<1000,29,none,bad
+<0,6331,<100,46,yes,bad
+>=200,1377,100<=X<500,47,yes,good
+0<=X<200,2503,100<=X<500,41,none,good
+0<=X<200,2528,<100,32,yes,good
+'no checking',5324,500<=X<1000,35,none,good
+0<=X<200,6560,100<=X<500,24,none,bad
+0<=X<200,2969,<100,25,none,bad
+0<=X<200,1206,<100,25,none,good
+0<=X<200,2118,<100,37,none,good
+'no checking',629,500<=X<1000,32,yes,good
+<0,1198,<100,35,none,bad
+'no checking',2476,'no known savings',46,yes,good
+<0,1138,<100,25,none,good
+0<=X<200,14027,<100,27,yes,bad
+'no checking',7596,'no known savings',63,none,good
+'no checking',3077,'no known savings',40,yes,good
+'no checking',1505,<100,32,yes,good
+>=200,3148,'no known savings',31,yes,good
+0<=X<200,6148,100<=X<500,31,yes,good
+>=200,1337,<100,34,yes,bad
+0<=X<200,433,>=1000,24,none,bad
+<0,1228,<100,24,none,bad
+0<=X<200,790,500<=X<1000,66,none,good
+'no checking',2570,<100,21,none,bad
+'no checking',250,>=1000,41,none,good
+'no checking',1316,500<=X<1000,47,none,good
+<0,1882,<100,25,none,bad
+0<=X<200,6416,<100,59,none,bad
+>=200,1275,>=1000,36,yes,good
+0<=X<200,6403,<100,33,none,good
+<0,1987,<100,21,none,bad
+0<=X<200,760,<100,44,none,good
+'no checking',2603,>=1000,28,yes,good
+'no checking',3380,<100,37,none,good
+0<=X<200,3990,'no known savings',29,none,good
+0<=X<200,11560,<100,23,none,bad
+<0,4380,100<=X<500,35,yes,good
+'no checking',6761,<100,45,yes,good
+0<=X<200,4280,100<=X<500,26,none,bad
+<0,2325,100<=X<500,32,none,good
+0<=X<200,1048,<100,23,none,good
+'no checking',3160,'no known savings',41,yes,good
+<0,2483,500<=X<1000,22,yes,good
+<0,14179,'no known savings',30,yes,good
+<0,1797,<100,28,none,good
+<0,2511,<100,23,none,good
+<0,1274,<100,37,none,bad
+'no checking',5248,'no known savings',26,none,good
+'no checking',3029,<100,33,none,good
+<0,428,<100,49,yes,good
+<0,976,<100,23,none,bad
+0<=X<200,841,100<=X<500,23,none,good
+'no checking',5771,<100,25,none,good
+'no checking',1555,>=1000,55,none,bad
+<0,1285,'no known savings',32,none,bad
+>=200,1299,<100,74,none,good
+>=200,1271,'no known savings',39,yes,bad
+'no checking',1393,<100,31,yes,good
+<0,691,<100,35,none,bad
+'no checking',5045,'no known savings',59,yes,good
+<0,2124,<100,24,none,bad
+<0,2214,<100,24,none,good
+'no checking',12680,'no known savings',30,yes,bad
+'no checking',2463,100<=X<500,27,yes,good
+0<=X<200,1155,<100,40,none,good
+<0,3108,<100,31,none,bad
+'no checking',2901,'no known savings',31,none,good
+0<=X<200,3617,<100,28,yes,good
+'no checking',1655,<100,63,yes,good
+<0,2812,'no known savings',26,none,good
+<0,8065,<100,25,yes,bad
+'no checking',3275,<100,36,yes,good
+'no checking',2223,100<=X<500,52,none,good
+>=200,1480,500<=X<1000,66,none,good
+<0,1371,'no known savings',25,none,bad
+'no checking',3535,<100,37,yes,good
+<0,3509,<100,25,none,good
+'no checking',5711,>=1000,38,yes,good
+0<=X<200,3872,<100,67,yes,good
+0<=X<200,4933,<100,25,none,bad
+'no checking',1940,>=1000,60,yes,good
+0<=X<200,1410,<100,31,yes,good
+0<=X<200,836,100<=X<500,23,none,bad
+0<=X<200,6468,'no known savings',60,yes,good
+0<=X<200,1941,>=1000,35,yes,good
+'no checking',2675,500<=X<1000,40,none,good
+'no checking',2751,'no known savings',38,yes,good
+0<=X<200,6224,<100,50,none,bad
+<0,5998,<100,27,yes,bad
+0<=X<200,1188,<100,39,none,bad
+'no checking',6313,'no known savings',41,yes,good
+'no checking',1221,'no known savings',27,none,good
+>=200,2892,<100,51,none,good
+'no checking',3062,500<=X<1000,32,yes,good
+'no checking',2301,100<=X<500,22,none,good
+<0,7511,'no known savings',51,yes,bad
+'no checking',1258,<100,22,none,good
+'no checking',717,'no known savings',54,yes,good
+0<=X<200,1549,'no known savings',35,none,good
+'no checking',1597,<100,54,none,good
+0<=X<200,1795,<100,48,yes,good
+<0,4272,<100,24,none,good
+'no checking',976,'no known savings',35,none,good
+0<=X<200,7472,'no known savings',24,none,good
+<0,9271,<100,24,yes,bad
+0<=X<200,590,<100,26,none,good
+'no checking',930,'no known savings',65,none,good
+0<=X<200,9283,<100,55,yes,good
+0<=X<200,1778,<100,26,none,bad
+0<=X<200,907,<100,26,yes,good
+0<=X<200,484,<100,28,none,good
+<0,9629,<100,24,yes,bad
+<0,3051,<100,54,none,bad
+<0,3931,<100,46,none,bad
+0<=X<200,7432,<100,54,none,good
+'no checking',1338,500<=X<1000,62,none,good
+'no checking',1554,<100,24,yes,good
+<0,15857,<100,43,none,good
+<0,1345,<100,26,none,bad
+'no checking',1101,<100,27,yes,good
+>=200,3016,<100,24,none,good
+<0,2712,<100,41,none,bad
+<0,731,<100,47,none,good
+'no checking',3780,<100,35,yes,good
+<0,1602,<100,30,yes,good
+<0,3966,<100,33,yes,bad
+'no checking',4165,<100,36,none,bad
+<0,8335,'no known savings',47,none,bad
+0<=X<200,6681,'no known savings',38,yes,good
+'no checking',2375,500<=X<1000,44,yes,good
+<0,1216,<100,23,yes,bad
+<0,11816,<100,29,none,bad
+0<=X<200,5084,'no known savings',42,yes,good
+>=200,2327,<100,25,none,bad
+<0,1082,<100,48,none,bad
+'no checking',886,'no known savings',21,none,good
+'no checking',601,<100,23,none,good
+<0,2957,<100,63,yes,good
+'no checking',2611,<100,46,none,good
+<0,5179,<100,29,none,bad
+'no checking',2993,<100,28,none,good
+'no checking',1943,<100,23,none,bad
+'no checking',1559,<100,50,yes,good
+'no checking',3422,<100,47,yes,good
+0<=X<200,3976,'no known savings',35,yes,good
+'no checking',6761,'no known savings',68,none,bad
+'no checking',1249,<100,28,none,good
+<0,1364,<100,59,none,good
+<0,709,<100,57,none,bad
+<0,2235,<100,33,none,bad
+'no checking',4042,'no known savings',43,yes,good
+'no checking',1471,<100,35,yes,good
+<0,1442,<100,32,none,bad
+'no checking',10875,<100,45,yes,good
+'no checking',1474,100<=X<500,33,yes,good
+'no checking',894,'no known savings',40,yes,good
+'no checking',3343,<100,28,yes,good
+<0,3959,<100,29,yes,bad
+'no checking',3577,100<=X<500,26,none,good
+'no checking',5804,>=1000,27,none,good
+'no checking',2169,<100,28,yes,bad
+<0,2439,<100,35,yes,bad
+'no checking',4526,>=1000,32,yes,good
+'no checking',2210,<100,25,none,bad
+'no checking',2221,500<=X<1000,20,none,good
+<0,2389,<100,27,none,good
+'no checking',3331,<100,42,none,good
+'no checking',7409,'no known savings',37,none,good
+<0,652,<100,24,none,good
+'no checking',7678,500<=X<1000,40,yes,good
+>=200,1343,<100,46,none,good
+<0,1382,100<=X<500,26,yes,good
+'no checking',874,'no known savings',24,none,good
+<0,3590,<100,29,none,good
+0<=X<200,1322,>=1000,40,none,good
+<0,1940,<100,36,yes,good
+'no checking',3595,<100,28,none,good
+<0,1422,<100,27,yes,bad
+'no checking',6742,'no known savings',36,none,good
+'no checking',7814,<100,38,yes,good
+'no checking',9277,'no known savings',48,yes,good
+0<=X<200,2181,'no known savings',36,none,good
+'no checking',1098,<100,65,none,good
+0<=X<200,4057,<100,43,yes,bad
+<0,795,<100,53,none,bad
+0<=X<200,2825,'no known savings',34,yes,good
+0<=X<200,15672,<100,23,yes,bad
+'no checking',6614,<100,34,yes,good
+'no checking',7824,'no known savings',40,yes,good
+<0,2442,<100,43,yes,good
+'no checking',1829,<100,46,yes,good
+<0,2171,<100,38,none,good
+0<=X<200,5800,<100,34,yes,good
+'no checking',1169,'no known savings',29,yes,good
+'no checking',8947,'no known savings',31,yes,good
+<0,2606,<100,28,yes,good
+'no checking',1592,>=1000,35,none,good
+'no checking',2186,'no known savings',33,none,good
+<0,4153,<100,42,none,bad
+<0,2625,<100,43,yes,bad
+'no checking',3485,'no known savings',44,yes,good
+'no checking',10477,'no known savings',42,none,good
+'no checking',1386,'no known savings',40,yes,good
+'no checking',1278,<100,36,yes,good
+<0,1107,<100,20,yes,good
+<0,3763,'no known savings',24,none,good
+0<=X<200,3711,'no known savings',27,none,good
+'no checking',3594,<100,46,none,good
+0<=X<200,3195,'no known savings',33,none,good
+'no checking',4454,<100,34,none,good
+0<=X<200,4736,<100,25,none,bad
+0<=X<200,2991,'no known savings',25,none,good
+'no checking',2142,>=1000,28,yes,good
+<0,3161,<100,31,yes,bad
+0<=X<200,18424,<100,32,yes,bad
+'no checking',2848,100<=X<500,32,none,good
+<0,14896,<100,68,yes,bad
+<0,2359,100<=X<500,33,none,bad
+<0,3345,<100,39,yes,bad
+'no checking',1817,<100,28,none,good
+'no checking',12749,500<=X<1000,37,yes,good
+<0,1366,<100,22,none,bad
+0<=X<200,2002,<100,30,yes,good
+<0,6872,<100,55,yes,bad
+<0,697,<100,46,yes,bad
+<0,1049,<100,21,none,good
+<0,10297,<100,39,yes,bad
+'no checking',1867,'no known savings',58,yes,good
+<0,1344,<100,43,none,good
+<0,1747,<100,24,none,good
+0<=X<200,1670,<100,22,yes,bad
+'no checking',1224,<100,30,none,good
+'no checking',522,500<=X<1000,42,yes,good
+<0,1498,<100,23,none,good
+0<=X<200,1919,100<=X<500,30,none,bad
+>=200,745,<100,28,none,bad
+0<=X<200,2063,<100,30,yes,good
+0<=X<200,6288,<100,42,none,bad
+'no checking',6842,'no known savings',46,yes,good
+'no checking',3527,'no known savings',45,yes,good
+'no checking',1546,<100,31,none,good
+'no checking',929,'no known savings',31,yes,good
+'no checking',1455,<100,42,none,good
+<0,1845,<100,46,none,good
+0<=X<200,8358,500<=X<1000,30,none,good
+<0,3349,500<=X<1000,30,yes,bad
+'no checking',2859,'no known savings',38,yes,good
+'no checking',1533,<100,43,none,bad
+'no checking',3621,100<=X<500,31,none,bad
+0<=X<200,3590,<100,40,yes,good
+<0,2145,<100,24,yes,bad
+0<=X<200,4113,500<=X<1000,28,none,bad
+'no checking',10974,<100,26,yes,bad
+<0,1893,<100,29,yes,good
+<0,1231,>=1000,57,yes,good
+>=200,3656,'no known savings',49,none,good
+0<=X<200,1154,<100,37,none,good
+<0,4006,<100,45,none,bad
+0<=X<200,3069,100<=X<500,30,none,good
+'no checking',1740,<100,30,none,good
+0<=X<200,2353,<100,47,none,good
+'no checking',3556,'no known savings',29,none,good
+'no checking',2397,500<=X<1000,35,yes,bad
+0<=X<200,454,<100,22,none,good
+0<=X<200,1715,'no known savings',26,none,good
+0<=X<200,2520,500<=X<1000,23,none,bad
+'no checking',3568,<100,54,yes,good
+'no checking',7166,'no known savings',29,yes,good
+<0,3939,<100,40,none,good
+0<=X<200,1514,100<=X<500,22,none,good
+'no checking',7393,<100,43,none,good
+<0,1193,<100,29,none,bad
+<0,7297,<100,36,none,bad
+'no checking',2831,<100,33,yes,good
+>=200,1258,500<=X<1000,57,none,good
+0<=X<200,753,<100,64,none,good
+0<=X<200,2427,'no known savings',42,none,good
+'no checking',2538,<100,47,none,bad
+0<=X<200,1264,100<=X<500,25,none,bad
+0<=X<200,8386,<100,49,none,bad
+'no checking',4844,<100,33,yes,bad
+>=200,2923,100<=X<500,28,yes,good
+<0,8229,<100,26,none,bad
+'no checking',2028,<100,30,none,good
+<0,1433,<100,25,none,good
+>=200,6289,<100,33,none,good
+'no checking',1409,100<=X<500,64,none,good
+<0,6579,<100,29,yes,good
+0<=X<200,1743,<100,48,none,good
+'no checking',3565,'no known savings',37,none,good
+'no checking',1569,100<=X<500,34,none,good
+<0,1936,'no known savings',23,none,good
+<0,3959,<100,30,yes,good
+'no checking',2390,'no known savings',50,yes,good
+'no checking',1736,<100,31,none,good
+<0,3857,<100,40,yes,good
+'no checking',804,<100,38,none,good
+<0,1845,<100,23,yes,bad
+0<=X<200,4576,100<=X<500,27,none,good

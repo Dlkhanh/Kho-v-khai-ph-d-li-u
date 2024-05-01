@@ -1,0 +1,31 @@
+﻿//1.Tổng giá trị đơn hàng được thanh toán bằng tiền mặt, COD và chuyển khoản ngân hàng.
+SELECT NONEMPTY([Dim Payment].[Payments].[Payments]) ON ROWS, 
+[Measures].[Sales] ON COLUMNS
+FROM [Cuoi Ki Nhom4];
+//2.Tổng lợi nhuận được tính theo từng tháng trong năm.
+SELECT [Measures].[Profit] ON COLUMNS,
+NONEMPTY([Dim Time].[Order Month].[Order Month]) ON ROWS
+FROM [Store Group3_View];
+//3.Phân tích doanh thu theo từng tháng để đưa ra các quyết định chiến lược dựa trên xu hướng.
+SELECT [Measures].[Sales] ON COLUMNS,
+NONEMPTY([Dim Time].[Order Month].[Order Month]) ON ROWS
+FROM [Store Group3_View];
+//4.Xác định 10 thành phố hoặc khu vực có nhu cầu cao để tập trung vào việc mở rộng thị trường.
+SELECT [Measures].[Sales] ON COLUMNS,
+TOPCOUNT(
+         [Dim Location].[State Or Province].[State Or Province],
+		 10,
+		 [Measures].[Sales]
+		 ) ON ROWS
+FROM [Store Group3_View];
+//5.Xác định nhóm khách hàng mục tiêu để đề ra chiến lược kinh doanh
+SELECT [Measures].[Sales] ON ROWS,
+NONEMPTY([Dim Customer].[Customer Segment].[Customer Segment]) ON COLUMNS
+FROM [Store Group3_View];
+//6.Xác định khách hàng trung thành
+SELECT [Measures].[Sales] ON COLUMNS,
+TOPCOUNT(
+         [Dim Customer].[Customer Name].[Customer Name],
+		 10,
+		 [Measures].[Sales]) ON ROWS
+FROM [Store Group3_View];
